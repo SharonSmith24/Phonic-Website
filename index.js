@@ -11,11 +11,11 @@ app.get('/', (req, res) => {
     })
 
     app.get ('/pilots',(req,res)=>{
-        res.sendFile(path.resolve(__dirname,'views/pilots.ejs'))
+        res.sendFile(path.resolve(__dirname,'views/pilots'))
     })
     app.get ('/cities',(req,res)=>{
-        res.sendFile(path.resolve(__dirname,'views/cities.ejs'))
+        res.sendFile(path.resolve(__dirname,'views/cities'))
     })
     app.get ('/names',(req,res)=>{
-        res.sendFile(path.resolve(__dirname,'views/names.ejs'))
+        res.sendFile(path.resolve(__dirname,'views/names'))
     })
