@@ -3,19 +3,13 @@
 <head>
   <title>Names' Alphabet</title>
   <meta charset="UTF-8">
-  <link href="public/site.css" rel="stylesheet">
-  <link href="public/names.css" rel="stylesheet">
+  <link href="style/site.css" rel="stylesheet">
+  <link href="style/names.css" rel="stylesheet">
+  
 </head>
 
 <body>
-  <div id="nav">
-    <ul id='menu'>
-      <li><a href='/'>Home</a></li>
-      <li><a href='/pilots'>Pilots</a></li>
-      <li><a href='/cities'>Cities</a></li>
-      <li><a href='/names'>Names</a></li>
-    </ul>
-  </div>
+  <%-include('views/layout/navbar.ejs');-%>
   <div id="main">
     <h1>Names' Alphabet</h1>
     <ul id="name">
